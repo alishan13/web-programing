@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>String Manipulation</title>
+</head>
+<body>
+    <script>
+        let str = 'javascript';
+        let str2 = 'programming'
+        let breakLine = '<br>'
+        document.write(`<h1>string : ${str}</h1>`)
+        document.write("<h4 style='color:darkslategrey;text-decoration: underline;'>STRING MANIPULATION USING FUNCTIONS</h4>")
+        document.write(`<p>String Uppercase : ${str.toUpperCase()} </p>`)
+        document.write(`<p>String Lowercase : ${str.toLowerCase()} </p>`)
+        document.write(`<p>String concat : ${str.concat(' ', str2 )} </p>`)
+        document.write(`<p>Character at position 2 : ${str.charAt(2)} </p>`)
+        document.write(`<p>Slice string : ${str.slice(2,5)} </p>`)
+
+        document.write(`<hr>`)
+        let number = 23.95;
+        document.write(`<h1>Math Function</h1>`)
+        document.write(`<p>The value of PI : ${Math.PI} </p>`)
+        document.write(`<p>Power of 5 : ${Math.pow(5,2)} </p>`)
+        document.write(`<p>Rounding ${number} : ${Math.round(number)} </p>`)
+        document.write(`<p>Floor ${number} : ${Math.floor(number)} </p>`)
+        document.write(`<p>Ceil ${number} : ${Math.ceil(number)} </p>`)
+
+    </script>
+</body>
+</html>
